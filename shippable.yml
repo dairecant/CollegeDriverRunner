@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 language: java
 
 jdk:
@@ -10,9 +10,7 @@ jdk:
 after_success:
    - mvn clean cobertura:cobertura
    - mvn test
-=======
- #Language setting http://docs.shippable.com/ci/languages/java/
-language: java
+
 
 # use this to control what branches get built.
 # http://docs.shippable.com/ci/advancedOptions/branches/
@@ -35,4 +33,3 @@ env:
       on_success: change
       on_failure: always
       on_pull_request: never
->>>>>>> d916cd5df3f3bf9746e4adb09e81d5be96b2fdd2
