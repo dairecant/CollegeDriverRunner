@@ -5,21 +5,19 @@
     <artifactId>CollegeDriver</artifactId>
     <version>1.0-SNAPSHOT</version>
     <packaging>jar</packaging>
-    <repositories>  
-    <repository>
-        <id>com.mycompany</id>
-        <name>college</name>
-        <url>
-https://www.dropbox.com/sh/f6qfwh2hod32fc9/AABGNP7UTl-OpN5PCw7OtNq0a?dl=0    
-        </url>
-    </repository>
-</repositories>
+  
+    	<repositories>
+		<repository>
+		    <id>jitpack.io</id>
+		    <url>https://jitpack.io</url>
+		</repository>
+	</repositories>
 <dependencies>
-   <dependency>
-        <groupId>com.mycompany</groupId>
-        <artifactId>college</artifactId>
-        <version>1.2</version>    
-    </dependency>
+  <dependency>
+	    <groupId>com.github.dairecant</groupId>
+	    <artifactId>College</artifactId>
+	    <version>-SNAPSHOT</version>
+	</dependency>
 </dependencies>
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
